@@ -28,6 +28,10 @@ library(r-sem)
 
 Raw <- readxl::read_xls('Raw_Data_1107.xls')
 
+saveRDS(Raw,"Raw.RDS")
+
+
+
 # 2) 데이터 전처리
 
 library(RSQLite)
